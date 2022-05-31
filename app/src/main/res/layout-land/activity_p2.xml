@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#A4519107"
+        android:fontFamily="casual"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#A4519107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="385dp"
+        android:layout_height="240dp"
+        android:fontFamily="casual"
+        android:text="June’s birth flower is the rose! And it’s not surprising as rose shrubs are often at their very best during this month, but many types will flower from late May through early fall. \n
+Plant roses where they will receive a minimum of 6 hours of sun per day. Morning sun is especially important because it dries the leaves, which helps prevent diseases.  Roses need a soil that drains well but holds onto moisture long enough for the roots to absorb some.\n
+"
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

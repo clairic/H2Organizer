@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="369dp"
+        android:fontFamily="casual"
+        android:text="Pothos (Epipremnum aureum) is one of the easiest houseplants to grow and is a beautiful addition to any home or office. Pothos plants like to dry out quite a bit between waterings. If you notice leaves yellowing or falling off, you may have waited too long.\n \t Dry, brown leaf edges also mean water more frequently.  Pothos prefers bright indirect light (no direct sun) but will still grow in shadier spots and even under fluorescent lights."
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#A4519107"
+        android:fontFamily="casual"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#A4519107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

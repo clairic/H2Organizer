@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#A4519107"
+        android:fontFamily="casual"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#A4519107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="258dp"
+        android:fontFamily="casual"
+        android:text="One of the most popular large houseplants, Ficus are easy and low maintenance if the basic needs are met.The light must be bright to moderate. To keep growth even, rotate the plant weekly.Ficus plants prefer being slightly dry (but never allow to wilt). Allow the top 1-2” of soil to dry before watering thoroughly."
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

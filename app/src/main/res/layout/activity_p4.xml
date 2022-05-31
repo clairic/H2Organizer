@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#A4519107"
+        android:fontFamily="casual"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#A4519107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="402dp"
+        android:fontFamily="casual"
+        android:text="Basil plants are one of the most popular herbs to grow and also one of the easiest. All types of basil grow easily in warm, sunny weather.\n The leaves are commonly used in cooking, but the flower buds are also edible. \n  Basil grows best with six to eight hours of full sun each day.Basil does best in moist, rich, well-draining soil.Water basil deeply on a regular basis, but be sure its soil is well-drained."
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
